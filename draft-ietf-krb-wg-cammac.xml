@@ -119,7 +119,8 @@
 
     <abstract>
       <t>
-        Abstract: This document specifies a Kerberos Authorization
+        Abstract: This document updates RFC 4120, specifying a
+        Kerberos Authorization
         Data container that supersedes AD-KDC-ISSUED. It allows for
         multiple Message Authentication Codes (MACs) or signatures to
         authenticate the contained Authorization Data elements.
@@ -130,7 +131,8 @@
   <middle>
     <section title="Introduction">
       <t>
-        This document specifies a new Authorization Data container for
+        This document updates <xref target="RFC4120" /> by specifying
+        a new Authorization Data container for
         Kerberos, called AD-CAMMAC (Container Authenticated by
         Multiple MACs), that supersedes AD-KDC-ISSUED. This new
         container allows both the receiving application service and
