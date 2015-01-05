@@ -380,9 +380,17 @@
     </section>
 
     <section title="Assigned numbers">
-      <t>The ad-type number for AD-CAMMAC is 96.</t>
-      <t>
-        The key usage number for the Verifier-MAC checksum is 64.
+      <t>RFC 4120 is updated in the following ways:
+        <list style="symbols">
+          <t>The ad-type number 96 is assigned for AD-CAMMAC, updating
+            the table in Section 7.5.4 of <xref target="RFC4120" />.</t>
+          <t>The table in Section 5.2.6 of <xref target="RFC4120" />
+            is updated to map the ad-type 96 to "DER encoding of AD-CAMMAC".</t>
+          <t>The key usage number 64 is assigned for the Verifier-MAC
+            checksum, updating the table in Section 7.5.1 of
+            <xref target="RFC4120" />.
+          </t>
+        </list>
       </t>
     </section>
 
