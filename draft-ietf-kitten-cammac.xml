@@ -432,9 +432,11 @@
         protocol.
       </t>
       <t>
-        The method for computing the kdc-verifier does not bind it to
-        any authorization data within the ticket but outside of the
-        CAMMAC.  At least one (non-standard) authorization data type,
+        The method for computing the kdc-verifier binds it only to the
+        authorization data contained within the CAMMAC; it does not bind
+        the CAMMAC to any authorization data within the containing ticket
+        but outside the CAMMAC.
+        At least one (non-standard) authorization data type,
         AD-SIGNEDPATH, attempts to bind to other authorization data in
         a ticket, and it is very difficult for two such authorization
         data types to coexist.
